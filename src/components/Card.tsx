@@ -3,7 +3,7 @@ import { ordersType } from "../data/dummy";
 const Card = ({order}:{order:ordersType}) => {
     return (
         <div className="card" key={order.id} >
-            <div>Order Id : {order.id}</div>
+            <div>Order Idd : {order.id}</div>
             <div>User Id : {order.userId}</div>
             <div >
                 <h4>Products</h4> 
